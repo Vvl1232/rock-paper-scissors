@@ -12,7 +12,7 @@ if st.button("Go!"):
         st.write("Please select a choice!")
     else:
         comp_choice = rd.choice(["🪨 Rock", "📰 Paper", "✂️ Scissors"])
-        st.write(f"Computer's choice: {comp_choice}")
+        st.subheader(f"Computer's choice: {comp_choice}")
 
         if user_choice == comp_choice:
             st.write("It's a tie! 🤝")
